@@ -38,7 +38,7 @@ while cap.isOpened():
                     quadro_consecutivo=1
                     letra = letras[int(results[0].boxes.cls[0].item())]
                 
-                if quadro_consecutivo==30:
+                if quadro_consecutivo==80:
                     quadro_consecutivo=0
                     texto += letra
                     print(texto)
